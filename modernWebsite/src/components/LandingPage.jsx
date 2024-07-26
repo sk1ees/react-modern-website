@@ -10,7 +10,7 @@ const LandingPage = () => {
                         < div className="masker" key={index} >
                             <div className="w-fit flex items-center overflow-hidden">
                                 {index === 1 && (<div className=' m-4 rounded-lg w-[10vw] h-[6vw] relative top-[0.4vw]  bg-red-500 `'></div>)}
-                                <h1 className=' flex items-center uppercase text-[8.5vw] h-full leading-[7vw] font-bold font-["Founders_Grotesk_X-Condensed]'>{item}</h1>
+                                <h1 className=' flex items-center uppercase text-[8.5vw] h-full leading-[7vw] font-bold font-["Founders_Grotesk_X-Condensed] tracking-tight'>{item}</h1>
 
                             </div>
                         </div>
