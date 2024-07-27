@@ -22,7 +22,7 @@ const App = () => {
         <Eyes />
         <Featured />
         <Cards />
-        <Footer />
+        {/* <Footer /> */}
       </h1>
     </>
   )

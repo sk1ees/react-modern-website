@@ -17,15 +17,15 @@ const Eyes = () => {
 
     return (
         <>
-            <div className="eyes w-full h-screen overflow-hidden">
+            <div className="eyes w-full h-screen overflow-hidden cursor-[url(https://cdn.custom-cursor.com/db/4906/32/arrow2786.png),_pointer]">
                 <div data-scroll data-scroll-speed="-.7" className=" relative w-full h-screen bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]">
 
                     <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]  flex gap-10">
 
                         <div className="w-[15vw] h-[15vw] rounded-full bg-zinc-100 flex items-center justify-center">
 
-                            <div className=" w-2/3 h-2/3 rounded-full bg-zinc-900 relative">
-
+                            <div className=" w-2/3 h-2/3 rounded-full bg-zinc-900 relative flex items-center justify-center">
+                                <h1 className='text-xl'>PLAY</h1>
                                 <div style={{ transform: `translate(-50% , -50%) rotate(${rotate}deg)` }} className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
 
 
@@ -40,8 +40,8 @@ const Eyes = () => {
                         </div>
                         <div className="w-[15vw] h-[15vw] rounded-full bg-zinc-100 flex items-center justify-center">
 
-                            <div className=" w-2/3 h-2/3 rounded-full bg-zinc-900 relative">
-
+                            <div className=" w-2/3 h-2/3 rounded-full bg-zinc-900 relative flex items-center justify-center">
+                                <h1 className='text-xl'>PLAY</h1>
                                 <div style={{ transform: `translate(-50% , -50%) rotate(${rotate}deg)` }} className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
 
 
